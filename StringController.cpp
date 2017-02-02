@@ -65,5 +65,8 @@ void StringController :: useSubstr()
 
 void StringController :: useCompare()
 {
-    
+    if (firstName.compare(lastName) != 0)
+    {
+        cout << "my first name is " << firstName << " and is not my last name " << lastName << endl;
+    }
 }
