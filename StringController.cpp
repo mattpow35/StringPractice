@@ -15,4 +15,37 @@ using namespace std;
 void StringController :: start()
 {
     
+ 
+    getSize();
+    useAt();
+    useEmpty();
+    useSubstr();
+    useCompare();
+}
+
+void StringController :: getSize()
+{
+    int size = firstName.size();
+    cout << "My first name is " << firstName << " and is " << size << " letters long."<< endl;
+    
+}
+
+void StringController :: useAt()
+{
+    
+}
+
+void StringController :: useEmpty()
+{
+    
+}
+
+void StringController :: useSubstr()
+{
+    
+}
+
+void StringController :: useCompare()
+{
+    
 }
