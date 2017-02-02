@@ -30,20 +30,20 @@ void StringController :: start()
     useSubstr();
     useCompare();
 }
-
+//test the get size on strings
 void StringController :: getSize()
 {
     long size = firstName.size();
     cout << "My first name is " << firstName << " and is " << size << " letters long."<< endl;
 }
-
+// test the at method on strings
 void StringController :: useAt()
 {
     //gets the letter at the 4th position.
     char letter = middleName.at(4);
     cout << "using .at() the letter at the 4th position in my middle name is " << letter << endl;
 }
-
+// test the empty method on strings
 void StringController :: useEmpty()
 {
     bool isEmpty = lastName.empty();
@@ -53,7 +53,7 @@ void StringController :: useEmpty()
         cout << "using .empty() my last name is not an empty string" << endl;
     }
 }
-
+// test the substring method on strings
 void StringController :: useSubstr()
 {
     string shortFirstName = firstName.substr(0,4);
@@ -62,7 +62,7 @@ void StringController :: useSubstr()
     string restOfFirstName = firstName.substr(4);
     cout << "using substr again the rest of my name is " << restOfFirstName << endl;
 }
-
+// test the compare method on strings
 void StringController :: useCompare()
 {
     if (firstName.compare(lastName) != 0)
