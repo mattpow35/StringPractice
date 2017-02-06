@@ -26,7 +26,7 @@ private:
     void useEmpty();
     void useSubstr();
     void useCompare();
- 
-};
+    
+    };
 
 #endif /* StringController_hpp */

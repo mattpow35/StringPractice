@@ -29,6 +29,13 @@ void StringController :: start()
     useEmpty();
     useSubstr();
     useCompare();
+    
+    int intArray [4];
+    double doubleArray [4];
+    
+    intArray[0] = 35;
+    doubleArray[0] = 3.14;
+    
 }
 //test the get size on strings
 void StringController :: getSize()
